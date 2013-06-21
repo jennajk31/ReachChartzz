@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<title>ReachChartz</title>
+<script src="js/Chart.js"></script>
+<link href='css/stylz.css' rel='stylesheet' type='text/css'>
+<meta name "viewport" t" content "initial-scale le 1, 1, user-scalable no" o">
+</head>
+<body onload="window.onload = date_time('date_time');">
+<div class="pageWrapper">
+	<div class="top1">
+		<br>
+		<img style="width: 232px;" src="img/reach-engine-logo-cymk-01.png">
+	</div>
+	<div class="top2">
+		<span id="date_time"></span>
+	</div>
+	<div class="top3">
+		<h4>Clients</h4>
+	</div>
+	<div class="top4">
+		<h4>Resources</h4>
+		<canvas id="Resources" height="200" width="200"></canvas>
+	</div>
+	<div class="bottomLeftWrapper">
+		<div class="BottomLeft1">
+			<h4>Type of Revenue</h4>
+			<canvas id="typeRevenue" height="400" width="250"></canvas>
+		</div>
+		<div class="BottomLeft2">
+			<div class="BottomLeftLeft1">
+				<h4>Q3 Pipeline</h4>
+				<canvas style="-webkit-transform: rotate(-109deg);" id="q3pipeline" height="200" width="200"></canvas>
+			</div>
+			<div class="BottomLeftLeft1">
+				<h4>Q4 Pipeline</h4>
+				<canvas style="-webkit-transform: rotate(-143deg);" id="q4pipeline" height="200" width="200"></canvas>
+			</div>
+			<div class="BottomLeftBottom">
+				<h4>Product Road Map</h4>
+			</div>
+		</div>
+	</div>
+	<div class="bottomRightWrapper">
+		<h4>Revenue</h4>
+		<canvas id="Revenue" height="400" width="540"></canvas>
+	</div>
+</div>
+<script src="js/clockJunk.js"></script>
+<script src="js/ResourcesPie.js"></script>
+<script src="js/typeRevenuebarChart.js"></script>
+<script src="js/q3.js"></script>
+<script src="js/q4.js"></script>
+<script src="js/RevenuelineChartData.js"></script>
+</body>
+</html>
