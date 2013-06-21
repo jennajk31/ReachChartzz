@@ -2,8 +2,15 @@ ReachChartzz
 ============
 
 js charting
-<code><script src="js/ResourcesPie.js"></script>
-<script src="js/typeRevenuebarChart.js"></script>
-<script src="js/q3.js"></script>
-<script src="js/q4.js"></script>
-<script src="js/RevenuelineChartData.js"></script></code>
+
+just edit the values of the corresponding js files
+they are in order as viewed in the index
+
+
+<pre><code>
+js/ResourcesPie.js
+js/typeRevenuebarChart.js
+js/q3.js
+js/q4.js
+js/RevenuelineChartData.js
+</code></pre>
