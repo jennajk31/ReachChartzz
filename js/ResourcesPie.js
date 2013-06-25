@@ -1,17 +1,22 @@
 
 		var pieData = [
 				{
-					value: 30,
-					color:"rgb(22, 86, 129)"
+					value: 10,
+					color:"#0f3e78"
 				},
 				{
-					value : 50,
+					value : 26,
 					color : "#E0E4CC"
 				},
 				{
+					value : 18,
+					color : "#00a0e8"
+				},
+				{
 					value : 100,
-					color : "#69D2E7"
+					color : "#000000"
 				}
+				
 			
 			];
 

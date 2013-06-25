@@ -1,11 +1,11 @@
 		var doughnutData = [
 				{
-					value: 80,
-					color:"rgb(1, 189, 224)"
+					value: 100,
+					color:"#00a0e8"
 				},
 				{
-					value : 50,
-					color : "rgb(53, 142, 201)"
+					value : 0,
+					color : "#004ba8"
 				}
 			];
 

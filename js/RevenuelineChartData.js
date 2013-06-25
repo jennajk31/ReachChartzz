@@ -1,19 +1,19 @@
 		var lineChartData = {
-			labels : ["January","February","March","April","May","June","July"],
+			labels : ["Jan","Feb","March","April","May","June","July", "Aug", "Sept", "Oct", "Nov", "Dec"],
 			datasets : [
 				{
-					fillColor : "rgb(1, 189, 224)",
+					fillColor : "#00a0e8",
 					strokeColor : "rgba(220,220,220,1)",
 					pointColor : "rgba(220,220,220,1)",
 					pointStrokeColor : "#fff",
-					data : [65,59,90,81,56,55,40]
+					data : [150,550,834,1193,1820,2756,3192,3778,4373,4968,5534,6437]
 				},
 				{
-					fillColor : "rgb(53, 142, 201)",
+					fillColor : "#004ba8",
 					strokeColor : "rgba(151,187,205,1)",
 					pointColor : "rgba(151,187,205,1)",
 					pointStrokeColor : "#fff",
-					data : [28,48,40,19,96,27,100]
+					data : [380.1,512.1,1109.7,1344.5,1801.7]
 				}
 			]
 			
